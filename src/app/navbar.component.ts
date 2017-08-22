@@ -27,13 +27,13 @@ import {Component} from '@angular/core';
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: white; padding: 8px 0 0 0;">
+              <a class="nav-link" href="https://www.linkedin.com/in/anquocvu/" target="_blank" style="color: white; padding: 8px 0 0 0;">
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"
                    style="color: white; padding: 0; margin: 0;"> </i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: white;  padding: 8px 0 0 0;">
+              <a class="nav-link" href="https://github.com/anvu03" target="_blank" style="color: white;  padding: 8px 0 0 0;">
                 <i class="fa fa-github fa-2x" aria-hidden="true" style="color: white; padding: 0; margin: 0;"></i>
               </a>
             </li>
