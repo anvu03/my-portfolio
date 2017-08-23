@@ -4,17 +4,20 @@ import {RouterModule, Routes} from '@angular/router';
 
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './navbar.component';
-
-export const ROUTES: Routes = [];
+import {AppRoutingModule} from './app.routing';
+import {ResumeComponent} from './resume.component';
+import {HomeComponent} from './home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ResumeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

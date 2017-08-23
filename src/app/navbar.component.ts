@@ -15,13 +15,16 @@ import {Component} from '@angular/core';
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/resume">Resume</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Projects
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Mortgage Calculator</a>
+                <a class="dropdown-item" routerLink="">Angular 2 Autocomplete Select Box</a>
                 <a class="dropdown-item" href="#">Project 2</a>
                 <a class="dropdown-item" href="#">Project 3</a>
               </div>
